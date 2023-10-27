@@ -2,17 +2,17 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.github.tony19.logback.android'
-    compileSdkVersion 31
-    buildToolsVersion '30.0.3'
+    compileSdkVersion 33
+    buildToolsVersion '33.0.0'
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_6
-        targetCompatibility JavaVersion.VERSION_1_6
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 31
+        minSdkVersion 22
+        targetSdkVersion 33
         versionCode VERSION_CODE.toInteger()
         versionName VERSION_NAME
     }
